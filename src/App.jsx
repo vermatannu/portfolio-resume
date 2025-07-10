@@ -1,6 +1,6 @@
 import { resumeData } from "./ResumeDatas";
 import WorkExperience from "./WorkExp";
-// import PersonalInfo from "./personalInfo";
+import PersonalInfo from "./Personal";
 import Skills from "./Skils";
 import Languages from "./Language";
 import Education from "./Education";
@@ -12,7 +12,7 @@ const App = () => {
     <>
       <Navbar />
       <section id="personal" className="scroll-mt-24">
-        {/* <PersonalInfo personalInfo={resumeData.personalInfo} /> */}
+        <PersonalInfo personalInfo={resumeData.personalInfo} />
       </section>
       <section id="experience">
         <WorkExperience workExperience={resumeData.workExperience} />
