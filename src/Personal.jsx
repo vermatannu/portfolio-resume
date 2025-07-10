@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import image from "../src/assets/image.png"
 
 const PersonalInfo = ({ personalInfo }) => {
   useEffect(() => {
@@ -113,7 +114,7 @@ const PersonalInfo = ({ personalInfo }) => {
         >
           <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-2xl group">
             <img
-              src="https://via.placeholder.com/400"
+              src={image}
               alt="Profile"
               className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
             />
