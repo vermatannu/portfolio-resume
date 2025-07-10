@@ -1,11 +1,11 @@
-import { resumeData } from "./resumeData.js";
-import WorkExperience from "./WorkExp.jsx";
-import PersonalInfo from "./personalInfo.jsx";
-import Skills from "./Skils.jsx";
-import Languages from "./Language.jsx";
-import Education from "./Education.jsx";
-import Navbar from "./Navbar.jsx";
-import ThankYou from "./Thankyou.jsx";
+import { resumeData } from "./resumeData";
+import WorkExperience from "./WorkExp";
+import PersonalInfo from "./personalInfo";
+import Skills from "./Skils";
+import Languages from "./Language";
+import Education from "./Education";
+import Navbar from "./Navbar";
+import ThankYou from "./Thankyou";
 
 const App = () => {
   return (
