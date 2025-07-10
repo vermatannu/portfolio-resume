@@ -1,4 +1,4 @@
-import { resumeData } from "./resumeData";
+import { resumeData } from "./ResumeDatas";
 import WorkExperience from "./WorkExp";
 import PersonalInfo from "./personalInfo";
 import Skills from "./Skils";
