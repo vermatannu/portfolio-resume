@@ -12,7 +12,7 @@ const App = () => {
     <>
       <Navbar />
       <section id="personal" className="scroll-mt-24">
-        <PersonalInfo personalInfo={resumeData.personalInfo} />
+        {/* <PersonalInfo personalInfo={resumeData.personalInfo} /> */}
       </section>
       <section id="experience">
         <WorkExperience workExperience={resumeData.workExperience} />
