@@ -1,6 +1,6 @@
 import { resumeData } from "./ResumeDatas";
 import WorkExperience from "./WorkExp";
-import PersonalInfo from "./personalInfo";
+// import PersonalInfo from "./personalInfo";
 import Skills from "./Skils";
 import Languages from "./Language";
 import Education from "./Education";
