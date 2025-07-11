@@ -7,7 +7,7 @@ export const resumeData = {
     email: "niraj2kumar4@gmail.com",
     phone: "9155828823",
     location: "Bengaluru, Karnataka, India",
-    linkedin: "https://www.linkedin.com/in/prashant-kumar",
+    linkedin: "https://www.linkedin.com/in/prashant-kumar-developer/",
   },
   workExperience: [
     {

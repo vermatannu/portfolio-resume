@@ -6,6 +6,7 @@ import Languages from "./Language";
 import Education from "./Education";
 import Navbar from "./Navbar";
 import ThankYou from "./Thankyou";
+import Projects from "./Project";
 
 const App = () => {
   return (
@@ -17,6 +18,9 @@ const App = () => {
       <section id="experience">
         <WorkExperience workExperience={resumeData.workExperience} />
       </section>
+      {/* <section id="projects">
+        <Projects />
+      </section> */}
       <section id="skills">
         <Skills skills={resumeData.skills} tools={resumeData.tools} />
       </section>
