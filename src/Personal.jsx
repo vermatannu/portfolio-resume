@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import image from "../src/assets/image.png"
+import image from "../src/assets/image.jpeg"
 
 const PersonalInfo = ({ personalInfo }) => {
   useEffect(() => {
@@ -72,12 +72,12 @@ const PersonalInfo = ({ personalInfo }) => {
               <span className="text-gray-100">{personalInfo.phone}</span>
             </div>
 
-            <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-2 group">
+            {/* <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-2 group">
               <span className="uppercase font-semibold text-indigo-200 group-hover:text-yellow-300 transition">
                 Location:
               </span>
               <span className="text-gray-100">{personalInfo.location}</span>
-            </div>
+            </div> */}
 
             <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-2 group">
               <span className="uppercase font-semibold text-indigo-200 group-hover:text-yellow-300 transition">

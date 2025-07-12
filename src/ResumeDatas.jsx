@@ -16,12 +16,13 @@ export const resumeData = {
       duration: "05/2024 - 09-2025",
       location: "Ranchi",
       responsibilities: [
-        "Designed and developed full-stack web applications using the MERN stack with TypeScript, focusing on scalable architecture and clean code",
+        
+        "Designed and developed full-stack web applications using the MERN stack with TypeScript, emphasizing scalable architecture, modular code structure, and industry best practices for maintainability and performance.",
         "Built secure RESTful APIs, implemented microservices with MongoDB and PostgreSQL using Mongoose and Sequelize.",
         "Created responsive, accessible UIs with React, Tailwind CSS, and Material UI.",
         "Wrote reusable components with React Hooks and validated forms with React Hook Form.",
-        "Automated end-to-end testing using Cypress and integrated it into CI/CD workflows.",
-        "Integrated Amazon S3 for media storage and collaborated in Agile teams using Git, GitHub and GitLab.",
+        "Automated end-to-end testing using Cypress, covering user journeys, edge cases, and regression tests, and integrated them into CI/CD pipelines using GitHub Actions and GitLab CI.",
+        "Handled file and media uploads securely using Amazon S3, with signed URLs, lifecycle rules, and integration into forms and media galleries.",
         
       ],
     },
@@ -51,7 +52,7 @@ export const resumeData = {
     duration: "07/2019 - 07/2022",
     },
     {
-    degree: "Masters in Computer Application (MCA)=> Online Program",
+    degree: "Masters in Computer Application (MCA)",
     institution: "Uttaranchal University",
     location: "Dehradun, Uttrakhand",
     duration: "01/2024 - 01/2026",

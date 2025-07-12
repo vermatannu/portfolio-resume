@@ -27,28 +27,35 @@ const Education = ({ education }) => {
         >
           Education
         </h2>
-
-        <div
-          className="bg-gray-800/50 rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow duration-500 group"
+       { education.map((edu)=>{
+        return(
+         <div
+          className="bg-gray-800/50 rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow duration-500 group mb-4"
           data-aos="fade-up"
           data-aos-delay="200"
         >
           <h3
-            className="text-2xl sm:text-3xl font-semibold text-gray-100 group-hover:text-yellow-400 transition mb-2"
+            className="text-2xl sm:tIext-3xl font-semibold text-gray-100 group-hover:text-yellow-400 transition mb-2"
             data-aos="fade-right"
             data-aos-delay="300"
           >
-            {education.degree}
+            {edu.degree}
           </h3>
           <p
             className="text-lg sm:text-xl font-light text-indigo-200"
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            {education.institution} | {education.location} | {education.duration}
+            {edu.institution} | {edu.location} | {edu.duration}
           </p>
         </div>
+        )
+       })
+      
+       
+}
       </div>
+      
     </section>
   );
 };
